@@ -1,0 +1,78 @@
+loss_method: mae    loss: 5.520407199859619    mse: 37.14622116088867    mae:5.520407199859619
+---------
+y=0.95x+-1.31    R2=0.90    std_err=0.10
+---------
+{
+    "name": "sequential_2",
+    "layers": [
+        {
+            "class_name": "InputLayer",
+            "config": {
+                "batch_input_shape": [
+                    null,
+                    4
+                ],
+                "dtype": "float32",
+                "sparse": false,
+                "ragged": false,
+                "name": "dense_4_input"
+            }
+        },
+        {
+            "class_name": "Dense",
+            "config": {
+                "name": "dense_4",
+                "trainable": true,
+                "batch_input_shape": [
+                    null,
+                    4
+                ],
+                "dtype": "float32",
+                "units": 39,
+                "activation": "relu",
+                "use_bias": true,
+                "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                        "seed": null
+                    }
+                },
+                "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+            }
+        },
+        {
+            "class_name": "Dense",
+            "config": {
+                "name": "dense_5",
+                "trainable": true,
+                "dtype": "float32",
+                "units": 1,
+                "activation": "linear",
+                "use_bias": true,
+                "kernel_initializer": {
+                    "class_name": "GlorotUniform",
+                    "config": {
+                        "seed": null
+                    }
+                },
+                "bias_initializer": {
+                    "class_name": "Zeros",
+                    "config": {}
+                },
+                "kernel_regularizer": null,
+                "bias_regularizer": null,
+                "activity_regularizer": null,
+                "kernel_constraint": null,
+                "bias_constraint": null
+            }
+        }
+    ]
+}

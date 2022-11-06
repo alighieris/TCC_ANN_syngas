@@ -1,0 +1,10 @@
+y=1.48x+-31.10    R2=0.88    std_err=0.17
+MAE_teste: 6.2050    MSE_teste: 56.8718
+---------
+RandomForestRegressor(bootstrap=True, ccp_alpha=0.0, criterion='mae',
+                      max_depth=11, max_features='log2', max_leaf_nodes=None,
+                      max_samples=None, min_impurity_decrease=0.005,
+                      min_impurity_split=None, min_samples_leaf=2,
+                      min_samples_split=5, min_weight_fraction_leaf=0.0,
+                      n_estimators=250, n_jobs=-1, oob_score=False,
+                      random_state=2022, verbose=0, warm_start=False)
